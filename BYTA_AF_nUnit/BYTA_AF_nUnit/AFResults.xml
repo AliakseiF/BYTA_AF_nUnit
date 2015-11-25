@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="17" result="Failed" total="17" passed="16" failed="1" inconclusive="0" skipped="0" asserts="17" engine-version="3.0.5797.27553" clr-version="4.0.30319.42000" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.212313">
+  <command-line><![CDATA[nunit3-console.exe  D:\BYTA\nUnit\nUnit\BYTA_AF_nUnit\BYTA_AF_nUnit\bin\Debug\BYTA_AF_nUnit.exe -work D:\BYTA\nUnit\nUnit\BYTA_AF_nUnit -result AFResults.xml]]></command-line>
+  <test-suite type="Assembly" id="0-1025" name="BYTA_AF_nUnit.exe" fullname="D:\BYTA\nUnit\nUnit\BYTA_AF_nUnit\BYTA_AF_nUnit\bin\Debug\BYTA_AF_nUnit.exe" runstate="Runnable" testcasecount="17" result="Failed" site="Child" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.042294" total="17" passed="16" failed="1" inconclusive="0" skipped="0" asserts="17">
+    <environment framework-version="3.0.5797.27534" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="D:\BYTA\nUnit\nunit3.0\bin" machine-name="EPBYMINW4187" user="Aliaksei_Famenka" user-domain="MINSK" culture="en-US" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="WorkDirectory" value="D:\BYTA\nUnit\nUnit\BYTA_AF_nUnit" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="3820" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1026" name="BYTA_AF_nUnit" fullname="BYTA_AF_nUnit" runstate="Runnable" testcasecount="17" result="Failed" site="Child" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.037310" total="17" passed="16" failed="1" inconclusive="0" skipped="0" asserts="17">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1000" name="DevideTest" fullname="BYTA_AF_nUnit.DevideTest" classname="BYTA_AF_nUnit.DevideTest" runstate="Runnable" testcasecount="5" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.018451" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="5">
+        <test-case id="0-1001" name="BaseTest" fullname="BYTA_AF_nUnit.DevideTest.BaseTest" methodname="BaseTest" classname="BYTA_AF_nUnit.DevideTest" runstate="Runnable" seed="2031539648" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.011181" asserts="1">
+          <output><![CDATA[Starting devide test...
+5
+11
+5 / 11 = 0.454545454545455
+Finishing devide test...
+]]></output>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="0-1006" name="SpecificTest" fullname="BYTA_AF_nUnit.DevideTest.SpecificTest" runstate="Runnable" testcasecount="4" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.001453" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="0-1002" name="SpecificTest(0.0d,2.0d,0.0d)" fullname="BYTA_AF_nUnit.DevideTest.SpecificTest(0.0d,2.0d,0.0d)" methodname="SpecificTest" classname="BYTA_AF_nUnit.DevideTest" runstate="Runnable" seed="202129304" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000234" asserts="1">
+            <output><![CDATA[Starting devide test...
+0 / 2 = 0
+Finishing devide test...
+]]></output>
+          </test-case>
+          <test-case id="0-1003" name="SpecificTest(-2.0d,2.0d,-1.0d)" fullname="BYTA_AF_nUnit.DevideTest.SpecificTest(-2.0d,2.0d,-1.0d)" methodname="SpecificTest" classname="BYTA_AF_nUnit.DevideTest" runstate="Runnable" seed="1630670862" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000045" asserts="1">
+            <output><![CDATA[Starting devide test...
+-2 / 2 = -1
+Finishing devide test...
+]]></output>
+          </test-case>
+          <test-case id="0-1004" name="SpecificTest(-1.0d,-2.0d,0.5d)" fullname="BYTA_AF_nUnit.DevideTest.SpecificTest(-1.0d,-2.0d,0.5d)" methodname="SpecificTest" classname="BYTA_AF_nUnit.DevideTest" runstate="Runnable" seed="1801850340" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000043" asserts="1">
+            <output><![CDATA[Starting devide test...
+-1 / -2 = 0.5
+Finishing devide test...
+]]></output>
+          </test-case>
+          <test-case id="0-1005" name="SpecificTest(1.0d,0.0d,double.PositiveInfinity)" fullname="BYTA_AF_nUnit.DevideTest.SpecificTest(1.0d,0.0d,double.PositiveInfinity)" methodname="SpecificTest" classname="BYTA_AF_nUnit.DevideTest" runstate="Runnable" seed="575529885" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000038" asserts="1">
+            <output><![CDATA[Starting devide test...
+1 / 0 = Infinity
+Finishing devide test...
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1007" name="MultiplyTest" fullname="BYTA_AF_nUnit.MultiplyTest" classname="BYTA_AF_nUnit.MultiplyTest" runstate="Runnable" testcasecount="4" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000970" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="4">
+        <test-case id="0-1008" name="BaseTest" fullname="BYTA_AF_nUnit.MultiplyTest.BaseTest" methodname="BaseTest" classname="BYTA_AF_nUnit.MultiplyTest" runstate="Runnable" seed="993609143" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000367" asserts="1">
+          <output><![CDATA[Starting multiply test...
+89
+51
+89 x 51 = 4539
+Finishing multiply test...
+]]></output>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="0-1012" name="SpecificTest" fullname="BYTA_AF_nUnit.MultiplyTest.SpecificTest" runstate="Runnable" testcasecount="3" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000410" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="3">
+          <test-case id="0-1009" name="SpecificTest(0.0d,2.0d,0.0d)" fullname="BYTA_AF_nUnit.MultiplyTest.SpecificTest(0.0d,2.0d,0.0d)" methodname="SpecificTest" classname="BYTA_AF_nUnit.MultiplyTest" runstate="Runnable" seed="277322916" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000176" asserts="1">
+            <output><![CDATA[Starting multiply test...
+0 x 2 = 0
+Finishing multiply test...
+]]></output>
+          </test-case>
+          <test-case id="0-1010" name="SpecificTest(-1.0d,2.0d,-2.0d)" fullname="BYTA_AF_nUnit.MultiplyTest.SpecificTest(-1.0d,2.0d,-2.0d)" methodname="SpecificTest" classname="BYTA_AF_nUnit.MultiplyTest" runstate="Runnable" seed="458445963" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000041" asserts="1">
+            <output><![CDATA[Starting multiply test...
+-1 x 2 = -2
+Finishing multiply test...
+]]></output>
+          </test-case>
+          <test-case id="0-1011" name="SpecificTest(-1.0d,-2.0d,2.0d)" fullname="BYTA_AF_nUnit.MultiplyTest.SpecificTest(-1.0d,-2.0d,2.0d)" methodname="SpecificTest" classname="BYTA_AF_nUnit.MultiplyTest" runstate="Runnable" seed="2113917196" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000039" asserts="1">
+            <output><![CDATA[Starting multiply test...
+-1 x -2 = 2
+Finishing multiply test...
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1013" name="NegativeTest" fullname="BYTA_AF_nUnit.NegativeTest" classname="BYTA_AF_nUnit.NegativeTest" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.015062" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="4">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1018" name="CheckError" fullname="BYTA_AF_nUnit.NegativeTest.CheckError" methodname="CheckError" classname="BYTA_AF_nUnit.NegativeTest" runstate="Runnable" seed="1896201078" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000884" asserts="1">
+          <output><![CDATA[Starting isNegative test...
+Wrong input
+Finishing isNegative test...
+]]></output>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="0-1017" name="SpecificTest" fullname="BYTA_AF_nUnit.NegativeTest.SpecificTest" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.014000" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="3">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1014" name="SpecificTest(&quot;1&quot;,False)" fullname="BYTA_AF_nUnit.NegativeTest.SpecificTest(&quot;1&quot;,False)" methodname="SpecificTest" classname="BYTA_AF_nUnit.NegativeTest" runstate="Runnable" seed="813987263" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.001188" asserts="1">
+            <output><![CDATA[Starting isNegative test...
+1 isNegative ? - False
+Finishing isNegative test...
+]]></output>
+          </test-case>
+          <test-case id="0-1015" name="SpecificTest(&quot;-1&quot;,True)" fullname="BYTA_AF_nUnit.NegativeTest.SpecificTest(&quot;-1&quot;,True)" methodname="SpecificTest" classname="BYTA_AF_nUnit.NegativeTest" runstate="Runnable" seed="1323870426" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000047" asserts="1">
+            <output><![CDATA[Starting isNegative test...
+-1 isNegative ? - True
+Finishing isNegative test...
+]]></output>
+          </test-case>
+          <test-case id="0-1016" name="SpecificTest(&quot;0&quot;,False)" fullname="BYTA_AF_nUnit.NegativeTest.SpecificTest(&quot;0&quot;,False)" methodname="SpecificTest" classname="BYTA_AF_nUnit.NegativeTest" runstate="Runnable" seed="1460656856" result="Failed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.012594" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: False
+  But was:  True
+]]></message>
+              <stack-trace><![CDATA[at BYTA_AF_nUnit.NegativeTest.SpecificTest(String a, Boolean c) in D:\BYTA\nUnit\nUnit\BYTA_AF_nUnit\BYTA_AF_nUnit\CalcTests\Negative.cs:line 31
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[Starting isNegative test...
+0 isNegative ? - True
+Finishing isNegative test...
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1019" name="PositiveTest" fullname="BYTA_AF_nUnit.PositiveTest" classname="BYTA_AF_nUnit.PositiveTest" runstate="Runnable" testcasecount="4" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.001801" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="4">
+        <test-case id="0-1024" name="CheckError" fullname="BYTA_AF_nUnit.PositiveTest.CheckError" methodname="CheckError" classname="BYTA_AF_nUnit.PositiveTest" runstate="Runnable" seed="1658039280" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000899" asserts="1">
+          <output><![CDATA[Starting isPositive test...
+Wrong input
+Finishing isPositive test...
+]]></output>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="0-1023" name="SpecificTest" fullname="BYTA_AF_nUnit.PositiveTest.SpecificTest" runstate="Runnable" testcasecount="3" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000541" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="3">
+          <test-case id="0-1020" name="SpecificTest(&quot;1&quot;,True)" fullname="BYTA_AF_nUnit.PositiveTest.SpecificTest(&quot;1&quot;,True)" methodname="SpecificTest" classname="BYTA_AF_nUnit.PositiveTest" runstate="Runnable" seed="421480137" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000224" asserts="1">
+            <output><![CDATA[Starting isPositive test...
+1 isPositive ? - True
+Finishing isPositive test...
+]]></output>
+          </test-case>
+          <test-case id="0-1021" name="SpecificTest(&quot;-1&quot;,False)" fullname="BYTA_AF_nUnit.PositiveTest.SpecificTest(&quot;-1&quot;,False)" methodname="SpecificTest" classname="BYTA_AF_nUnit.PositiveTest" runstate="Runnable" seed="963478164" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000060" asserts="1">
+            <output><![CDATA[Starting isPositive test...
+-1 isPositive ? - False
+Finishing isPositive test...
+]]></output>
+          </test-case>
+          <test-case id="0-1022" name="SpecificTest(&quot;0&quot;,False)" fullname="BYTA_AF_nUnit.PositiveTest.SpecificTest(&quot;0&quot;,False)" methodname="SpecificTest" classname="BYTA_AF_nUnit.PositiveTest" runstate="Runnable" seed="1778333889" result="Passed" start-time="2015-11-25 09:39:20Z" end-time="2015-11-25 09:39:20Z" duration="0.000055" asserts="1">
+            <output><![CDATA[Starting isPositive test...
+0 isPositive ? - False
+Finishing isPositive test...
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
